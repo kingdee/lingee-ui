@@ -1,4 +1,4 @@
-import{j as n}from"./jsx-runtime-BO8uF4Og.js";import{useMDXComponents as r}from"./index-BqIVwv1J.js";import{M as o}from"./index-bZyivOAB.js";import"./index-D4H_InIO.js";import"./iframe-BgFgdv2k.js";import"./index-dbwHFDAS.js";import"./index-Dd8bRu6S.js";import"./index-DgH-xKnr.js";import"./index-DrFu-skq.js";function s(i){const e={a:"a",code:"code",h1:"h1",h2:"h2",li:"li",ol:"ol",p:"p",pre:"pre",strong:"strong",ul:"ul",...r(),...i.components};return n.jsxs(n.Fragment,{children:[n.jsx(o,{title:"Overview/Introduction"}),`
+import{j as n}from"./jsx-runtime-BO8uF4Og.js";import{useMDXComponents as r}from"./index-BqIVwv1J.js";import{M as t}from"./index-DFZAKPJm.js";import"./index-D4H_InIO.js";import"./iframe-QpRC4F18.js";import"./index-dbwHFDAS.js";import"./index-Dd8bRu6S.js";import"./index-DgH-xKnr.js";import"./index-DrFu-skq.js";function s(i){const e={a:"a",code:"code",h1:"h1",h2:"h2",li:"li",ol:"ol",p:"p",pre:"pre",strong:"strong",ul:"ul",...r(),...i.components};return n.jsxs(n.Fragment,{children:[n.jsx(t,{title:"Overview/Introduction"}),`
 `,n.jsx(e.h1,{id:"lingee-ui",children:"lingee-ui"}),`
 `,n.jsx(e.p,{children:"轻量级 React 企业级组件库，为金蝶灵基产品线提供统一的 UI 基础设施。"}),`
 `,n.jsx(e.h2,{id:"特性",children:"特性"}),`
@@ -29,18 +29,7 @@ function App() {
 }
 `})}),`
 `,n.jsx(e.h2,{id:"组件列表",children:"组件列表"}),`
-`,n.jsx(e.p,{children:`| 组件 | 说明 |
-|------|------|
-| Button | 按钮，支持 5 种变体 × 4 种尺寸 × 危险/加载/禁用状态 |
-| Tabs | 选项卡，支持 line / pill / capsule 三种风格 |
-| Tooltip | 文字提示气泡 |
-| Popover | 弹出面板 |
-| Dialog | 对话框 |
-| Toast | 轻提示 |
-| Input | 输入框 |
-| Textarea | 多行文本输入 |
-| Switch | 开关 |
-| Tag | 标签 |`}),`
+`,n.jsxs("table",{children:[n.jsx("thead",{children:n.jsxs("tr",{children:[n.jsx("th",{children:"组件"}),n.jsx("th",{children:"说明"})]})}),n.jsxs("tbody",{children:[n.jsxs("tr",{children:[n.jsx("td",{children:"Button"}),n.jsx("td",{children:"按钮，支持 5 种变体 × 4 种尺寸 × 危险/加载/禁用状态"})]}),n.jsxs("tr",{children:[n.jsx("td",{children:"Tabs"}),n.jsx("td",{children:"选项卡，支持 line / pill / capsule 三种风格"})]}),n.jsxs("tr",{children:[n.jsx("td",{children:"Tooltip"}),n.jsx("td",{children:"文字提示气泡"})]}),n.jsxs("tr",{children:[n.jsx("td",{children:"Popover"}),n.jsx("td",{children:"弹出面板"})]}),n.jsxs("tr",{children:[n.jsx("td",{children:"Dialog"}),n.jsx("td",{children:"对话框"})]}),n.jsxs("tr",{children:[n.jsx("td",{children:"Toast"}),n.jsx("td",{children:"轻提示"})]}),n.jsxs("tr",{children:[n.jsx("td",{children:"Input"}),n.jsx("td",{children:"输入框"})]}),n.jsxs("tr",{children:[n.jsx("td",{children:"Textarea"}),n.jsx("td",{children:"多行文本输入"})]}),n.jsxs("tr",{children:[n.jsx("td",{children:"Switch"}),n.jsx("td",{children:"开关"})]}),n.jsxs("tr",{children:[n.jsx("td",{children:"Tag"}),n.jsx("td",{children:"标签"})]})]})]}),`
 `,n.jsx(e.h2,{id:"token-体系",children:"Token 体系"}),`
 `,n.jsx(e.p,{children:"组件样式全部基于 CSS 变量，分为两层："}),`
 `,n.jsxs(e.ol,{children:[`
