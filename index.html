@@ -1,173 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
   <head>
-    <meta charset="utf-8" />
-
-    <title>@storybook/core - Storybook</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-
-    
-    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
-    
-    <style>
-      @font-face {
-        font-family: 'Nunito Sans';
-        font-style: normal;
-        font-weight: 400;
-        font-display: swap;
-        src: url('./sb-common-assets/nunito-sans-regular.woff2') format('woff2');
-      }
-
-      @font-face {
-        font-family: 'Nunito Sans';
-        font-style: italic;
-        font-weight: 400;
-        font-display: swap;
-        src: url('./sb-common-assets/nunito-sans-italic.woff2') format('woff2');
-      }
-
-      @font-face {
-        font-family: 'Nunito Sans';
-        font-style: normal;
-        font-weight: 700;
-        font-display: swap;
-        src: url('./sb-common-assets/nunito-sans-bold.woff2') format('woff2');
-      }
-
-      @font-face {
-        font-family: 'Nunito Sans';
-        font-style: italic;
-        font-weight: 700;
-        font-display: swap;
-        src: url('./sb-common-assets/nunito-sans-bold-italic.woff2') format('woff2');
-      }
-    </style>
-
-    <link href="./sb-manager/runtime.js" rel="modulepreload" />
-
-    
-    <link href="./sb-addons/storybook-core-core-server-presets-0/common-manager-bundle.js" rel="modulepreload" />
-    
-    <link href="./sb-addons/essentials-controls-1/manager-bundle.js" rel="modulepreload" />
-    
-    <link href="./sb-addons/essentials-actions-2/manager-bundle.js" rel="modulepreload" />
-    
-    <link href="./sb-addons/essentials-docs-3/manager-bundle.js" rel="modulepreload" />
-    
-    <link href="./sb-addons/essentials-backgrounds-4/manager-bundle.js" rel="modulepreload" />
-    
-    <link href="./sb-addons/essentials-viewport-5/manager-bundle.js" rel="modulepreload" />
-    
-    <link href="./sb-addons/essentials-toolbars-6/manager-bundle.js" rel="modulepreload" />
-    
-    <link href="./sb-addons/essentials-measure-7/manager-bundle.js" rel="modulepreload" />
-    
-    <link href="./sb-addons/essentials-outline-8/manager-bundle.js" rel="modulepreload" />
-    
-    <link href="./sb-addons/docs-storybook-9/manager-bundle.js" rel="modulepreload" />
-       
-
-    <style>
-      #storybook-root[hidden] {
-        display: none !important;
-      }
-    </style>
-
-    
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lingee UI - 组件库文档</title>
+    <link rel="icon" type="image/svg+xml" href="/lingee-ui/favicon.svg" />
+    <script type="module" crossorigin src="/lingee-ui/assets/index-CK3gJ_xv.js"></script>
+    <link rel="modulepreload" crossorigin href="/lingee-ui/assets/utils-D3YijGPp.js">
+    <link rel="modulepreload" crossorigin href="/lingee-ui/assets/react-dom-CDl8yS8z.js">
+    <link rel="modulepreload" crossorigin href="/lingee-ui/assets/client-CNlZkXgB.js">
+    <link rel="modulepreload" crossorigin href="/lingee-ui/assets/utils-CEep5eWU.js">
+    <link rel="modulepreload" crossorigin href="/lingee-ui/assets/ZoomOut-D-iOJEVW.js">
+    <link rel="modulepreload" crossorigin href="/lingee-ui/assets/FileEarmark-BIkb4sQR.js">
+    <link rel="modulepreload" crossorigin href="/lingee-ui/assets/Threedots-1pt4_kug.js">
+    <link rel="modulepreload" crossorigin href="/lingee-ui/assets/Check-L7fGT4rD.js">
+    <link rel="modulepreload" crossorigin href="/lingee-ui/assets/XLg-CzRsxE59.js">
+    <link rel="modulepreload" crossorigin href="/lingee-ui/assets/provider-DitETfxs.js">
+    <link rel="modulepreload" crossorigin href="/lingee-ui/assets/ExclamationCircleFill1-Cw5DgfIr.js">
+    <link rel="modulepreload" crossorigin href="/lingee-ui/assets/FieldTypeDate-Des1ZHIU.js">
+    <link rel="modulepreload" crossorigin href="/lingee-ui/assets/ChevronDown-vXN5Rfxr.js">
+    <link rel="modulepreload" crossorigin href="/lingee-ui/assets/ChevronLeft-ZYncOmyq.js">
+    <link rel="modulepreload" crossorigin href="/lingee-ui/assets/ChevronRight-CSWzKrQb.js">
+    <link rel="modulepreload" crossorigin href="/lingee-ui/assets/Clock-DfV_bTM5.js">
+    <link rel="modulepreload" crossorigin href="/lingee-ui/assets/Trash-CavCrZb6.js">
+    <link rel="modulepreload" crossorigin href="/lingee-ui/assets/DashLg1-DBpC5AlX.js">
+    <link rel="modulepreload" crossorigin href="/lingee-ui/assets/empty-Bvi8zjwm.js">
+    <link rel="modulepreload" crossorigin href="/lingee-ui/assets/ExclamationCircleFill-CWfdFwjt.js">
+    <link rel="modulepreload" crossorigin href="/lingee-ui/assets/LoaderCircle-BrQnVm8J.js">
+    <link rel="modulepreload" crossorigin href="/lingee-ui/assets/XCircleFill-CMb6_8Jz.js">
+    <link rel="modulepreload" crossorigin href="/lingee-ui/assets/dist-TNDziVq5.js">
+    <link rel="modulepreload" crossorigin href="/lingee-ui/assets/dist-mN8Y4nVg.js">
+    <link rel="modulepreload" crossorigin href="/lingee-ui/assets/dist-DHGYh1gd.js">
+    <link rel="modulepreload" crossorigin href="/lingee-ui/assets/dist-DAOoH8dk.js">
+    <link rel="modulepreload" crossorigin href="/lingee-ui/assets/dist-DMUrQm4s.js">
+    <link rel="modulepreload" crossorigin href="/lingee-ui/assets/Combination-P5ZCLbYm.js">
+    <link rel="modulepreload" crossorigin href="/lingee-ui/assets/popover-jJfq7fqK.js">
+    <link rel="modulepreload" crossorigin href="/lingee-ui/assets/select--lCX8-_u.js">
+    <link rel="modulepreload" crossorigin href="/lingee-ui/assets/Plus-Jh4gNWhn.js">
+    <link rel="modulepreload" crossorigin href="/lingee-ui/assets/Search-_SuXcQq-.js">
+    <link rel="modulepreload" crossorigin href="/lingee-ui/assets/dist-Bb8vu4X3.js">
+    <link rel="modulepreload" crossorigin href="/lingee-ui/assets/dist-jdY45DOk.js">
+    <link rel="modulepreload" crossorigin href="/lingee-ui/assets/tabs-C_GcrCOU.js">
+    <link rel="modulepreload" crossorigin href="/lingee-ui/assets/input-9Vz3UNM9.js">
+    <link rel="stylesheet" crossorigin href="/lingee-ui/assets/provider-BZWQp8Lr.css">
+    <link rel="stylesheet" crossorigin href="/lingee-ui/assets/empty-DZhEuf2B.css">
+    <link rel="stylesheet" crossorigin href="/lingee-ui/assets/popover-mPbaFG2Z.css">
+    <link rel="stylesheet" crossorigin href="/lingee-ui/assets/select-CRwyP-_x.css">
+    <link rel="stylesheet" crossorigin href="/lingee-ui/assets/tabs-a5wWHabV.css">
+    <link rel="stylesheet" crossorigin href="/lingee-ui/assets/input-BgV5t2fB.css">
+    <link rel="stylesheet" crossorigin href="/lingee-ui/assets/index-Bbh1_GYn.css">
   </head>
   <body>
     <div id="root"></div>
-
-    
-    <script>
-      
-        
-          window['FEATURES'] = {
-  "argTypeTargetsV7": true,
-  "legacyDecoratorFileOrder": false,
-  "disallowImplicitActionsInRenderV8": true
-};
-        
-      
-        
-          window['REFS'] = {};
-        
-      
-        
-          window['LOGLEVEL'] = "info";
-        
-      
-        
-          window['DOCS_OPTIONS'] = {
-  "defaultName": "Docs",
-  "autodocs": "tag"
-};
-        
-      
-        
-          window['CONFIG_TYPE'] = "PRODUCTION";
-        
-      
-        
-      
-        
-      
-        
-          window['TAGS_OPTIONS'] = {
-  "dev-only": {
-    "excludeFromDocsStories": true
-  },
-  "docs-only": {
-    "excludeFromSidebar": true
-  },
-  "test-only": {
-    "excludeFromSidebar": true,
-    "excludeFromDocsStories": true
-  }
-};
-        
-      
-        
-          window['STORYBOOK_RENDERER'] = "react";
-        
-      
-        
-          window['STORYBOOK_BUILDER'] = "@storybook/builder-vite";
-        
-      
-        
-          window['STORYBOOK_FRAMEWORK'] = "@storybook/react-vite";
-        
-      
-    </script>
-    
-
-    <script type="module">
-      import './sb-manager/globals-runtime.js';
-      
-      
-        import './sb-addons/storybook-core-core-server-presets-0/common-manager-bundle.js';
-      
-        import './sb-addons/essentials-controls-1/manager-bundle.js';
-      
-        import './sb-addons/essentials-actions-2/manager-bundle.js';
-      
-        import './sb-addons/essentials-docs-3/manager-bundle.js';
-      
-        import './sb-addons/essentials-backgrounds-4/manager-bundle.js';
-      
-        import './sb-addons/essentials-viewport-5/manager-bundle.js';
-      
-        import './sb-addons/essentials-toolbars-6/manager-bundle.js';
-      
-        import './sb-addons/essentials-measure-7/manager-bundle.js';
-      
-        import './sb-addons/essentials-outline-8/manager-bundle.js';
-      
-        import './sb-addons/docs-storybook-9/manager-bundle.js';
-      
-      
-      import './sb-manager/runtime.js';
-    </script>
   </body>
 </html>
