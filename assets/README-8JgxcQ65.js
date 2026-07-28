@@ -147,12 +147,12 @@ export default function DangerDemo() {
     </div>
   );
 }
-`,C=({label:e,children:t})=>(0,c.jsxs)(`div`,{style:{display:`flex`,alignItems:`center`,gap:12,marginBottom:16},children:[(0,c.jsx)(`span`,{style:{fontSize:12,fontFamily:`monospace`,color:`rgba(255,255,255,0.7)`,minWidth:100},children:e}),(0,c.jsx)(`div`,{style:{display:`flex`,flexWrap:`wrap`,gap:8},children:t})]});function w(){return(0,c.jsxs)(`div`,{style:{padding:20,background:`#1a1a2e`,borderRadius:8},children:[(0,c.jsxs)(C,{label:`primary`,children:[(0,c.jsx)(s,{variant:`primary`,ghost:!0,children:`Primary`}),(0,c.jsx)(s,{variant:`primary`,ghost:!0,disabled:!0,children:`Disabled`}),(0,c.jsx)(s,{variant:`primary`,ghost:!0,icon:(0,c.jsx)(a,{}),children:`搜索`})]}),(0,c.jsxs)(C,{label:`filled`,children:[(0,c.jsx)(s,{variant:`filled`,ghost:!0,children:`Filled`}),(0,c.jsx)(s,{variant:`filled`,ghost:!0,disabled:!0,children:`Disabled`})]}),(0,c.jsxs)(C,{label:`default`,children:[(0,c.jsx)(s,{variant:`default`,ghost:!0,children:`Default`}),(0,c.jsx)(s,{variant:`default`,ghost:!0,disabled:!0,children:`Disabled`}),(0,c.jsx)(s,{variant:`default`,ghost:!0,icon:(0,c.jsx)(a,{}),children:`搜索`})]}),(0,c.jsxs)(C,{label:`text`,children:[(0,c.jsx)(s,{variant:`text`,ghost:!0,children:`Text`}),(0,c.jsx)(s,{variant:`text`,ghost:!0,disabled:!0,children:`Disabled`})]}),(0,c.jsxs)(C,{label:`danger + ghost`,children:[(0,c.jsx)(s,{variant:`primary`,ghost:!0,danger:!0,children:`Primary`}),(0,c.jsx)(s,{variant:`default`,ghost:!0,danger:!0,children:`Default`}),(0,c.jsx)(s,{variant:`text`,ghost:!0,danger:!0,children:`Text`})]})]})}var T=`import { Button } from "lingee-ui";
+`,C=({label:e,children:t})=>(0,c.jsxs)(`div`,{style:{display:`flex`,alignItems:`center`,gap:12,marginBottom:16},children:[(0,c.jsx)(`span`,{style:{fontSize:12,fontFamily:`monospace`,color:`rgba(0,0,0,0.46)`,minWidth:100},children:e}),(0,c.jsx)(`div`,{style:{display:`flex`,flexWrap:`wrap`,gap:8},children:t})]});function w(){return(0,c.jsxs)(`div`,{children:[(0,c.jsxs)(C,{label:`primary`,children:[(0,c.jsx)(s,{variant:`primary`,ghost:!0,children:`Primary`}),(0,c.jsx)(s,{variant:`primary`,ghost:!0,disabled:!0,children:`Disabled`}),(0,c.jsx)(s,{variant:`primary`,ghost:!0,icon:(0,c.jsx)(a,{}),children:`搜索`})]}),(0,c.jsxs)(C,{label:`filled`,children:[(0,c.jsx)(s,{variant:`filled`,ghost:!0,children:`Filled`}),(0,c.jsx)(s,{variant:`filled`,ghost:!0,disabled:!0,children:`Disabled`})]}),(0,c.jsxs)(C,{label:`default`,children:[(0,c.jsx)(s,{variant:`default`,ghost:!0,children:`Default`}),(0,c.jsx)(s,{variant:`default`,ghost:!0,disabled:!0,children:`Disabled`}),(0,c.jsx)(s,{variant:`default`,ghost:!0,icon:(0,c.jsx)(a,{}),children:`搜索`})]}),(0,c.jsxs)(C,{label:`text`,children:[(0,c.jsx)(s,{variant:`text`,ghost:!0,children:`Text`}),(0,c.jsx)(s,{variant:`text`,ghost:!0,disabled:!0,children:`Disabled`})]}),(0,c.jsxs)(C,{label:`danger + ghost`,children:[(0,c.jsx)(s,{variant:`primary`,ghost:!0,danger:!0,children:`Primary`}),(0,c.jsx)(s,{variant:`default`,ghost:!0,danger:!0,children:`Default`}),(0,c.jsx)(s,{variant:`text`,ghost:!0,danger:!0,children:`Text`})]})]})}var T=`import { Button } from "lingee-ui";
 import { Search } from "lingee-icon";
 
 const Row = ({ label, children }: { label: string; children: React.ReactNode }) => (
   <div style={{ display: "flex", alignItems: "center", gap: 12, marginBottom: 16 }}>
-    <span style={{ fontSize: 12, fontFamily: "monospace", color: "rgba(255,255,255,0.7)", minWidth: 100 }}>
+    <span style={{ fontSize: 12, fontFamily: "monospace", color: "rgba(0,0,0,0.46)", minWidth: 100 }}>
       {label}
     </span>
     <div style={{ display: "flex", flexWrap: "wrap", gap: 8 }}>
@@ -163,7 +163,7 @@ const Row = ({ label, children }: { label: string; children: React.ReactNode }) 
 
 export default function GhostDemo() {
   return (
-    <div style={{ padding: 20, background: "#1a1a2e", borderRadius: 8 }}>
+    <div>
       <Row label="primary">
         <Button variant="primary" ghost>Primary</Button>
         <Button variant="primary" ghost disabled>Disabled</Button>
@@ -190,6 +190,7 @@ export default function GhostDemo() {
     </div>
   );
 }
+
 `;function E(){return(0,c.jsxs)(`div`,{style:{display:`flex`,gap:12},children:[(0,c.jsx)(s,{variant:`text`,icon:(0,c.jsx)(t,{}),tooltip:`编辑`,"aria-label":`编辑`}),(0,c.jsx)(s,{variant:`text`,icon:(0,c.jsx)(n,{}),tooltip:`复制`,"aria-label":`复制`}),(0,c.jsx)(s,{variant:`text`,icon:(0,c.jsx)(r,{}),danger:!0,tooltip:`删除`,"aria-label":`删除`})]})}var D=`import { Button } from "lingee-ui";
 import { Edit, Copy, Trash } from "lingee-icon";
 
@@ -242,7 +243,7 @@ export default function DisabledDemo() {
 `,(0,c.jsxs)(t.p,{children:[`所有变体 + `,(0,c.jsx)(t.code,{children:`danger`}),` 的平铺展示，含 Default / Disabled / 带图标。`]}),`
 `,(0,c.jsx)(o,{source:S,children:(0,c.jsx)(x,{})}),`
 `,(0,c.jsx)(t.h2,{children:`幽灵按钮`}),`
-`,(0,c.jsxs)(t.p,{children:[`所有变体 + `,(0,c.jsx)(t.code,{children:`ghost`}),` 的平铺展示（深色背景衬托），含 `,(0,c.jsx)(t.code,{children:`danger + ghost`}),` 组合。`]}),`
+`,(0,c.jsxs)(t.p,{children:[`所有变体 + `,(0,c.jsx)(t.code,{children:`ghost`}),` 的平铺展示，含 `,(0,c.jsx)(t.code,{children:`danger + ghost`}),` 组合。`]}),`
 `,(0,c.jsx)(o,{source:T,children:(0,c.jsx)(w,{})}),`
 `,(0,c.jsx)(t.h2,{children:`图标按钮 + Tooltip`}),`
 `,(0,c.jsxs)(t.p,{children:[`纯图标按钮可通过 `,(0,c.jsx)(t.code,{children:`tooltip`}),` 属性添加文字提示。`]}),`
