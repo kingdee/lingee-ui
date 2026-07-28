@@ -1,1 +1,0 @@
-function e(...e){return e.filter(Boolean).join(` `)}var t={display:`inline-block`,verticalAlign:`-0.125em`,lineHeight:0},n=!1;function r(){if(n||typeof document>`u`)return;let e=document.createElement(`style`);e.textContent=`@keyframes lingee-icon-spin{to{transform:rotate(360deg)}}`,document.head.appendChild(e),n=!0}export{e as n,r,t};
