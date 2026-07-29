@@ -1,4 +1,4 @@
-import{C as e}from"./dist-DCLsKzkS.js";import{t}from"./empty-CJ9KZQnY.js";import{t as n}from"./Search-WaqXFOiJ.js";import{t as r}from"./DemoBox-D1az5eCZ.js";import{t as i}from"./button-Bt-6g9li.js";var a=e();function o(){return(0,a.jsx)(t,{icon:n,description:`暂无数据`})}var s=`import { Empty } from "lingee-ui";
+import{C as e}from"./dist-DCLsKzkS.js";import{t}from"./empty-CJ9KZQnY.js";import{t as n}from"./Search-WaqXFOiJ.js";import{t as r}from"./DemoBox-D1az5eCZ.js";import{t as i}from"./button-BYTxzV6M.js";var a=e();function o(){return(0,a.jsx)(t,{icon:n,description:`暂无数据`})}var s=`import { Empty } from "lingee-ui";
 import { Search } from "lingee-icon";
 
 export default function BasicDemo() {
