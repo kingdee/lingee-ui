@@ -63,7 +63,7 @@ export default function VariantsDemo() {
     </div>
   );
 }
-`;function m(){return(0,c.jsxs)(`div`,{style:{display:`flex`,alignItems:`center`,gap:12},children:[(0,c.jsx)(s,{variant:`primary`,size:`sm`,children:`小 24px`}),(0,c.jsx)(s,{variant:`primary`,size:`md`,children:`中 28px`}),(0,c.jsx)(s,{variant:`primary`,size:`std`,children:`标准 32px`}),(0,c.jsx)(s,{variant:`primary`,size:`lg`,children:`大 36px`})]})}var h=`import { Button } from "lingee-ui";
+`;function m(){return(0,c.jsxs)(`div`,{style:{display:`flex`,alignItems:`center`,gap:12},children:[(0,c.jsx)(s,{variant:`primary`,size:`sm`,children:`小 24px`}),(0,c.jsx)(s,{variant:`primary`,size:`md`,children:`中 28px`}),(0,c.jsx)(s,{variant:`primary`,size:`std`,children:`标准 32px`}),(0,c.jsx)(s,{variant:`primary`,size:`lg`,children:`大 36px`})]})}var h=`import { Button } from "../../../src";
 
 export default function SizesDemo() {
   return (
