@@ -1,4 +1,4 @@
-import{C as e}from"./dist-DCLsKzkS.js";import{r as t}from"./provider-DMuMa5yQ.js";import{t as n}from"./DemoBox-D1az5eCZ.js";import{t as r}from"./button-C8GWSUqU.js";var i=e();function a(){return(0,i.jsxs)(`div`,{style:{display:`flex`,gap:12},children:[(0,i.jsx)(r,{onClick:()=>t.success(`操作成功！`),children:`成功`}),(0,i.jsx)(r,{onClick:()=>t.error(`出错了，请重试`),children:`错误`}),(0,i.jsx)(r,{onClick:()=>t.warning(`请注意，这是一条警告`),children:`警告`}),(0,i.jsx)(r,{onClick:()=>t.info(`这是一条信息提示`),children:`信息`})]})}var o=`import { toast, Button } from "lingee-ui";
+import{C as e}from"./dist-DCLsKzkS.js";import{r as t}from"./provider-DMuMa5yQ.js";import{t as n}from"./DemoBox-D1az5eCZ.js";import{t as r}from"./button-Bt-6g9li.js";var i=e();function a(){return(0,i.jsxs)(`div`,{style:{display:`flex`,gap:12},children:[(0,i.jsx)(r,{onClick:()=>t.success(`操作成功！`),children:`成功`}),(0,i.jsx)(r,{onClick:()=>t.error(`出错了，请重试`),children:`错误`}),(0,i.jsx)(r,{onClick:()=>t.warning(`请注意，这是一条警告`),children:`警告`}),(0,i.jsx)(r,{onClick:()=>t.info(`这是一条信息提示`),children:`信息`})]})}var o=`import { toast, Button } from "lingee-ui";
 
 export default function BasicDemo() {
   return (

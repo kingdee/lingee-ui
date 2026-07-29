@@ -1,4 +1,4 @@
-import{C as e}from"./dist-DCLsKzkS.js";import{n as t,r as n,t as r}from"./Trash-BWkZFjHh.js";import{t as i}from"./Plus-CHBAcDIY.js";import{t as a}from"./Search-WaqXFOiJ.js";import{t as o}from"./DemoBox-D1az5eCZ.js";import{t as s}from"./button-C8GWSUqU.js";var c=e();function l(){return(0,c.jsxs)(`div`,{style:{display:`flex`,gap:12},children:[(0,c.jsx)(s,{variant:`primary`,children:`主要按钮`}),(0,c.jsx)(s,{variant:`default`,children:`默认按钮`}),(0,c.jsx)(s,{variant:`text`,children:`文字按钮`})]})}var u=`import { Button } from "lingee-ui";
+import{C as e}from"./dist-DCLsKzkS.js";import{n as t,r as n,t as r}from"./Trash-BWkZFjHh.js";import{t as i}from"./Plus-CHBAcDIY.js";import{t as a}from"./Search-WaqXFOiJ.js";import{t as o}from"./DemoBox-D1az5eCZ.js";import{t as s}from"./button-Bt-6g9li.js";var c=e();function l(){return(0,c.jsxs)(`div`,{style:{display:`flex`,gap:12},children:[(0,c.jsx)(s,{variant:`primary`,children:`主要按钮`}),(0,c.jsx)(s,{variant:`default`,children:`默认按钮`}),(0,c.jsx)(s,{variant:`text`,children:`文字按钮`})]})}var u=`import { Button } from "lingee-ui";
 
 export default function BasicDemo() {
   return (

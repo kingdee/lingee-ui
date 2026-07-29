@@ -1,4 +1,4 @@
-import{C as e}from"./dist-DCLsKzkS.js";import{t}from"./DemoBox-D1az5eCZ.js";import{t as n}from"./button-C8GWSUqU.js";import{n as r,r as i,t as a}from"./popover-M7eZJemD.js";var o=e();function s(){return(0,o.jsxs)(a,{children:[(0,o.jsx)(i,{children:(0,o.jsx)(n,{children:`点击弹出`})}),(0,o.jsx)(r,{children:(0,o.jsx)(`p`,{style:{margin:0},children:`这是一个气泡弹出层的内容。`})})]})}var c=`import { Popover, PopoverTrigger, PopoverContent, Button } from "lingee-ui";
+import{C as e}from"./dist-DCLsKzkS.js";import{t}from"./DemoBox-D1az5eCZ.js";import{t as n}from"./button-Bt-6g9li.js";import{n as r,r as i,t as a}from"./popover-M7eZJemD.js";var o=e();function s(){return(0,o.jsxs)(a,{children:[(0,o.jsx)(i,{children:(0,o.jsx)(n,{children:`点击弹出`})}),(0,o.jsx)(r,{children:(0,o.jsx)(`p`,{style:{margin:0},children:`这是一个气泡弹出层的内容。`})})]})}var c=`import { Popover, PopoverTrigger, PopoverContent, Button } from "lingee-ui";
 
 export default function BasicDemo() {
   return (

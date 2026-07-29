@@ -1,4 +1,4 @@
-import{C as e}from"./dist-DCLsKzkS.js";import{n as t,t as n}from"./DemoBox-D1az5eCZ.js";import{t as r}from"./button-C8GWSUqU.js";var i=e();function a(){return(0,i.jsx)(t,{content:`这是一条提示信息`,children:(0,i.jsx)(r,{children:`鼠标悬停`})})}var o=`import { Tooltip, Button } from "lingee-ui";
+import{C as e}from"./dist-DCLsKzkS.js";import{n as t,t as n}from"./DemoBox-D1az5eCZ.js";import{t as r}from"./button-Bt-6g9li.js";var i=e();function a(){return(0,i.jsx)(t,{content:`这是一条提示信息`,children:(0,i.jsx)(r,{children:`鼠标悬停`})})}var o=`import { Tooltip, Button } from "lingee-ui";
 
 export default function BasicDemo() {
   return (
