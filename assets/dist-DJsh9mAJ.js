@@ -1,1 +1,0 @@
-import{C as e,M as t,k as n}from"./dist-DCLsKzkS.js";var r=t(n(),1);e();var i=r.createContext(void 0);function a(e){let t=r.useContext(i);return e||t||`ltr`}export{a as t};
