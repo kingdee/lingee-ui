@@ -1,4 +1,4 @@
-import{A as e,D as t,x as n}from"./dist-DjLZdxEA.js";import{t as r}from"./DemoBox-DEznk3dE.js";import{t as i}from"./tabs-B-sNSBui.js";var a=n(),o=[{key:`tab1`,label:`选项一`},{key:`tab2`,label:`选项二`},{key:`tab3`,label:`选项三`}];function s(){return(0,a.jsx)(i,{items:o,defaultActiveKey:`tab1`})}var c=`import { Tabs } from "lingee-ui";
+import{A as e,D as t,x as n}from"./dist-DjLZdxEA.js";import{t as r}from"./DemoBox-DEznk3dE.js";import{t as i}from"./tabs-1yf-vK4P.js";var a=n(),o=[{key:`tab1`,label:`选项一`},{key:`tab2`,label:`选项二`},{key:`tab3`,label:`选项三`}];function s(){return(0,a.jsx)(i,{items:o,defaultActiveKey:`tab1`})}var c=`import { Tabs } from "lingee-ui";
 
 const items = [
   { key: "tab1", label: "选项一" },
