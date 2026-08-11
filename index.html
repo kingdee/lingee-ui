@@ -1,54 +1,75 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lingee UI - 组件库文档</title>
     <link rel="icon" type="image/svg+xml" href="/lingee-ui/favicon.svg" />
-    <script type="module" crossorigin src="/lingee-ui/assets/index-CSElbPZL.js"></script>
-    <link rel="modulepreload" crossorigin href="/lingee-ui/assets/dist-DjLZdxEA.js">
-    <link rel="modulepreload" crossorigin href="/lingee-ui/assets/client-sNJbLfZc.js">
-    <link rel="modulepreload" crossorigin href="/lingee-ui/assets/ZoomOut-CW5iPl9p.js">
-    <link rel="modulepreload" crossorigin href="/lingee-ui/assets/FileEarmark-DGA5gX7m.js">
-    <link rel="modulepreload" crossorigin href="/lingee-ui/assets/EyeSlash-BYLLkDbj.js">
-    <link rel="modulepreload" crossorigin href="/lingee-ui/assets/Check-dy1WWNrL.js">
-    <link rel="modulepreload" crossorigin href="/lingee-ui/assets/XLg-BVUzbMOA.js">
-    <link rel="modulepreload" crossorigin href="/lingee-ui/assets/provider-pWkB89tL.js">
-    <link rel="modulepreload" crossorigin href="/lingee-ui/assets/dist-CJ4qR1i8.js">
-    <link rel="modulepreload" crossorigin href="/lingee-ui/assets/ExclamationCircleFill-BeHppwiU.js">
-    <link rel="modulepreload" crossorigin href="/lingee-ui/assets/XCircleFill-BeudBD2A.js">
-    <link rel="modulepreload" crossorigin href="/lingee-ui/assets/alert-Cjf9BLB-.js">
-    <link rel="modulepreload" crossorigin href="/lingee-ui/assets/FieldTypeDate-C-PStecf.js">
-    <link rel="modulepreload" crossorigin href="/lingee-ui/assets/ChevronDown-DkD3e0uA.js">
-    <link rel="modulepreload" crossorigin href="/lingee-ui/assets/ChevronLeft-DGXLuvxH.js">
-    <link rel="modulepreload" crossorigin href="/lingee-ui/assets/ChevronRight-Dd6Me60a.js">
-    <link rel="modulepreload" crossorigin href="/lingee-ui/assets/Clock-D6UXzgTY.js">
-    <link rel="modulepreload" crossorigin href="/lingee-ui/assets/Trash-ujZdFd2W.js">
-    <link rel="modulepreload" crossorigin href="/lingee-ui/assets/DashLg1-CSsMN-az.js">
-    <link rel="modulepreload" crossorigin href="/lingee-ui/assets/Share-4_Zoi8_e.js">
-    <link rel="modulepreload" crossorigin href="/lingee-ui/assets/empty-D-rf5kcY.js">
-    <link rel="modulepreload" crossorigin href="/lingee-ui/assets/LoaderCircle-C02abBk2.js">
-    <link rel="modulepreload" crossorigin href="/lingee-ui/assets/Combination-DQW32aRY.js">
-    <link rel="modulepreload" crossorigin href="/lingee-ui/assets/popover-DZawXUah.js">
-    <link rel="modulepreload" crossorigin href="/lingee-ui/assets/dist-cSHR0CPE.js">
-    <link rel="modulepreload" crossorigin href="/lingee-ui/assets/dist-CC6sJVB6.js">
-    <link rel="modulepreload" crossorigin href="/lingee-ui/assets/dist-D8Wfxh48.js">
-    <link rel="modulepreload" crossorigin href="/lingee-ui/assets/scroll-area-Drjrg7EP.js">
-    <link rel="modulepreload" crossorigin href="/lingee-ui/assets/select-C7kuu3K4.js">
-    <link rel="modulepreload" crossorigin href="/lingee-ui/assets/Lightbulb-CVhI6BjA.js">
-    <link rel="modulepreload" crossorigin href="/lingee-ui/assets/Plus-Euud2asr.js">
-    <link rel="modulepreload" crossorigin href="/lingee-ui/assets/Search-Dp6UwMqT.js">
-    <link rel="modulepreload" crossorigin href="/lingee-ui/assets/tabs-BVlv0dxu.js">
-    <link rel="modulepreload" crossorigin href="/lingee-ui/assets/input-GAfYXG60.js">
-    <link rel="stylesheet" crossorigin href="/lingee-ui/assets/provider-BZWQp8Lr.css">
+    <script>
+      // 在 CSS 与 React 渲染前同步设好主题与语言，避免暗色用户刷新时闪现白底（FOUC）。
+      // 读写逻辑与 ThemeContext / i18n 保持一致，两侧 key 必须同步修改。
+      (function () {
+        try {
+          var theme = localStorage.getItem("lingee-ui-theme");
+          if (theme !== "dark" && theme !== "light") {
+            theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+          }
+          document.documentElement.setAttribute("data-theme", theme);
+
+          var lang = localStorage.getItem("lingee-ui-lang");
+          if (lang !== "zh-CN" && lang !== "en-US") {
+            lang = navigator.language.toLowerCase().indexOf("zh") === 0 ? "zh-CN" : "en-US";
+          }
+          document.documentElement.setAttribute("lang", lang);
+        } catch (e) {
+          // localStorage 在隐私模式下可能抛错，回退默认亮色中文
+          document.documentElement.setAttribute("data-theme", "light");
+          document.documentElement.setAttribute("lang", "zh-CN");
+        }
+      })();
+    </script>
+    <script type="module" crossorigin src="/lingee-ui/assets/index-D16yKUD6.js"></script>
+    <link rel="modulepreload" crossorigin href="/lingee-ui/assets/i18n-C43t6VQe.js">
+    <link rel="modulepreload" crossorigin href="/lingee-ui/assets/client-DM3I9Co0.js">
+    <link rel="modulepreload" crossorigin href="/lingee-ui/assets/Threedots-C8m_wqdI.js">
+    <link rel="modulepreload" crossorigin href="/lingee-ui/assets/ZoomOut-CRKJ_EMF.js">
+    <link rel="modulepreload" crossorigin href="/lingee-ui/assets/FileEarmark-Bbkof-J6.js">
+    <link rel="modulepreload" crossorigin href="/lingee-ui/assets/EyeSlash-CytqI51I.js">
+    <link rel="modulepreload" crossorigin href="/lingee-ui/assets/Check-C0sLWjrn.js">
+    <link rel="modulepreload" crossorigin href="/lingee-ui/assets/XLg-K0gLw2GV.js">
+    <link rel="modulepreload" crossorigin href="/lingee-ui/assets/provider-sxHNE1gl.js">
+    <link rel="modulepreload" crossorigin href="/lingee-ui/assets/dist-BU2EVLgb.js">
+    <link rel="modulepreload" crossorigin href="/lingee-ui/assets/ExclamationCircleFill-DSLabK0O.js">
+    <link rel="modulepreload" crossorigin href="/lingee-ui/assets/XCircleFill-BetK1110.js">
+    <link rel="modulepreload" crossorigin href="/lingee-ui/assets/alert-BenexJ8x.js">
+    <link rel="modulepreload" crossorigin href="/lingee-ui/assets/FieldTypeDate-DT4XSVU6.js">
+    <link rel="modulepreload" crossorigin href="/lingee-ui/assets/ChevronDown-CJ-CtgiB.js">
+    <link rel="modulepreload" crossorigin href="/lingee-ui/assets/ChevronLeft-CyIqpr8e.js">
+    <link rel="modulepreload" crossorigin href="/lingee-ui/assets/ChevronRight-DOqTDuAQ.js">
+    <link rel="modulepreload" crossorigin href="/lingee-ui/assets/Clock-DdglaWqn.js">
+    <link rel="modulepreload" crossorigin href="/lingee-ui/assets/Edit-DZ2QZ7AL.js">
+    <link rel="modulepreload" crossorigin href="/lingee-ui/assets/DashLg1-CQogkwxu.js">
+    <link rel="modulepreload" crossorigin href="/lingee-ui/assets/Share-jcpdyEpx.js">
+    <link rel="modulepreload" crossorigin href="/lingee-ui/assets/empty-CTpdSjxO.js">
+    <link rel="modulepreload" crossorigin href="/lingee-ui/assets/LoaderCircle-CIh_4ubB.js">
+    <link rel="modulepreload" crossorigin href="/lingee-ui/assets/Combination-BS7BN7Ft.js">
+    <link rel="modulepreload" crossorigin href="/lingee-ui/assets/popover-CixUBzUg.js">
+    <link rel="modulepreload" crossorigin href="/lingee-ui/assets/select-Br-yH_Tt.js">
+    <link rel="modulepreload" crossorigin href="/lingee-ui/assets/Lightbulb-Ii8mtx4t.js">
+    <link rel="modulepreload" crossorigin href="/lingee-ui/assets/Plus-DeGvFHHj.js">
+    <link rel="modulepreload" crossorigin href="/lingee-ui/assets/Search-Cxw5bkAq.js">
+    <link rel="modulepreload" crossorigin href="/lingee-ui/assets/Trash-y8e3A2uP.js">
+    <link rel="modulepreload" crossorigin href="/lingee-ui/assets/tabs-QNnEhPG7.js">
+    <link rel="modulepreload" crossorigin href="/lingee-ui/assets/input-CfAsfg3B.js">
+    <link rel="stylesheet" crossorigin href="/lingee-ui/assets/i18n-CVCRFt1X.css">
+    <link rel="stylesheet" crossorigin href="/lingee-ui/assets/provider-CF6fJJ4p.css">
     <link rel="stylesheet" crossorigin href="/lingee-ui/assets/alert-B9UJvvtn.css">
     <link rel="stylesheet" crossorigin href="/lingee-ui/assets/empty-DZhEuf2B.css">
     <link rel="stylesheet" crossorigin href="/lingee-ui/assets/popover-mPbaFG2Z.css">
-    <link rel="stylesheet" crossorigin href="/lingee-ui/assets/scroll-area-CVCRFt1X.css">
     <link rel="stylesheet" crossorigin href="/lingee-ui/assets/select-CTYWc_5W.css">
     <link rel="stylesheet" crossorigin href="/lingee-ui/assets/tabs-BTOxy1NG.css">
-    <link rel="stylesheet" crossorigin href="/lingee-ui/assets/input-BgV5t2fB.css">
-    <link rel="stylesheet" crossorigin href="/lingee-ui/assets/index-C5G48M3z.css">
+    <link rel="stylesheet" crossorigin href="/lingee-ui/assets/input-CaEQiPJs.css">
+    <link rel="stylesheet" crossorigin href="/lingee-ui/assets/index-CLYjImvC.css">
   </head>
   <body>
     <div id="root"></div>

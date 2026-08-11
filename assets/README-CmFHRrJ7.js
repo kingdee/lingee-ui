@@ -1,0 +1,20 @@
+import{R as e}from"./i18n-C43t6VQe.js";import{t}from"./DemoBox-C3fXWtGv.js";import{a as n,c as r,d as i,f as a,i as o,l as s,n as c,o as l,r as u,s as d,t as f,u as p}from"./page-level-d_-uHTlq.js";var m=e(),h={title:`Empty 空状态`,description:`当目标区域无数据时展示的空状态占位图，引导用户进行下一步操作。`};function g(e){let h={code:`code`,h2:`h2`,p:`p`,table:`table`,tbody:`tbody`,td:`td`,th:`th`,thead:`thead`,tr:`tr`,...e.components};return(0,m.jsxs)(m.Fragment,{children:[(0,m.jsx)(h.h2,{children:`基本用法`}),`
+`,(0,m.jsx)(h.p,{children:`传入图标和描述文字展示空状态。`}),`
+`,(0,m.jsx)(t,{source:i,children:(0,m.jsx)(a,{})}),`
+`,(0,m.jsx)(h.h2,{children:`三种尺寸`}),`
+`,(0,m.jsxs)(h.p,{children:[`通过 `,(0,m.jsx)(h.code,{children:`size`}),` 属性切换尺寸：`,(0,m.jsx)(h.code,{children:`lg`}),` 适合页面级空白区域，`,(0,m.jsx)(h.code,{children:`md`}),`（默认）适合局部列表/卡片，`,(0,m.jsx)(h.code,{children:`sm`}),` 适合表格内或紧凑空间。`]}),`
+`,(0,m.jsx)(t,{source:d,children:(0,m.jsx)(r,{})}),`
+`,(0,m.jsx)(h.h2,{children:`不同场景图标`}),`
+`,(0,m.jsxs)(h.p,{children:[`通过 `,(0,m.jsx)(h.code,{children:`icon`}),` 传入 lingee-icon 组件，覆盖不同业务场景。组件会自动注入尺寸和渐变色。`]}),`
+`,(0,m.jsx)(t,{source:n,children:(0,m.jsx)(l,{})}),`
+`,(0,m.jsx)(h.h2,{children:`自定义 ReactNode 图标`}),`
+`,(0,m.jsxs)(h.p,{children:[(0,m.jsx)(h.code,{children:`icon`}),` 也支持直接传入 ReactNode，可以实现加载中旋转等自定义效果。`]}),`
+`,(0,m.jsx)(t,{source:u,children:(0,m.jsx)(o,{})}),`
+`,(0,m.jsx)(h.h2,{children:`页面级空状态 + 操作按钮`}),`
+`,(0,m.jsxs)(h.p,{children:[(0,m.jsx)(h.code,{children:`size="lg"`}),` 配合 `,(0,m.jsx)(h.code,{children:`children`}),` 添加操作按钮，引导用户进行下一步操作。`]}),`
+`,(0,m.jsx)(t,{source:f,children:(0,m.jsx)(c,{})}),`
+`,(0,m.jsx)(h.h2,{children:`自定义描述和操作`}),`
+`,(0,m.jsxs)(h.p,{children:[`通过 `,(0,m.jsx)(h.code,{children:`description`}),` 自定义描述文字，通过 `,(0,m.jsx)(h.code,{children:`children`}),` 添加操作按钮引导用户下一步行动。`]}),`
+`,(0,m.jsx)(t,{source:s,children:(0,m.jsx)(p,{})}),`
+`,(0,m.jsx)(h.h2,{children:`API`}),`
+`,(0,m.jsxs)(h.table,{children:[(0,m.jsx)(h.thead,{children:(0,m.jsxs)(h.tr,{children:[(0,m.jsx)(h.th,{children:`属性`}),(0,m.jsx)(h.th,{children:`说明`}),(0,m.jsx)(h.th,{children:`类型`}),(0,m.jsx)(h.th,{children:`默认值`})]})}),(0,m.jsxs)(h.tbody,{children:[(0,m.jsxs)(h.tr,{children:[(0,m.jsx)(h.td,{children:(0,m.jsx)(h.code,{children:`icon`})}),(0,m.jsx)(h.td,{children:`图标：传 lingee-icon 组件自动注入渐变，传 ReactNode 完全自定义，不传使用默认图标`}),(0,m.jsx)(h.td,{children:(0,m.jsx)(h.code,{children:`ComponentType<SvgIconProps> | ReactNode`})}),(0,m.jsx)(h.td,{children:`默认 DocumentLibrary`})]}),(0,m.jsxs)(h.tr,{children:[(0,m.jsx)(h.td,{children:(0,m.jsx)(h.code,{children:`description`})}),(0,m.jsx)(h.td,{children:`描述文字`}),(0,m.jsx)(h.td,{children:(0,m.jsx)(h.code,{children:`ReactNode`})}),(0,m.jsx)(h.td,{children:`-`})]}),(0,m.jsxs)(h.tr,{children:[(0,m.jsx)(h.td,{children:(0,m.jsx)(h.code,{children:`size`})}),(0,m.jsxs)(h.td,{children:[`尺寸：`,(0,m.jsx)(h.code,{children:`lg`}),` 页面级 / `,(0,m.jsx)(h.code,{children:`md`}),` 局部（默认）/ `,(0,m.jsx)(h.code,{children:`sm`}),` 迷你`]}),(0,m.jsx)(h.td,{children:(0,m.jsx)(h.code,{children:`"sm" | "md" | "lg"`})}),(0,m.jsx)(h.td,{children:(0,m.jsx)(h.code,{children:`"md"`})})]}),(0,m.jsxs)(h.tr,{children:[(0,m.jsx)(h.td,{children:(0,m.jsx)(h.code,{children:`children`})}),(0,m.jsx)(h.td,{children:`自定义底部内容（如操作按钮）`}),(0,m.jsx)(h.td,{children:(0,m.jsx)(h.code,{children:`ReactNode`})}),(0,m.jsx)(h.td,{children:`-`})]}),(0,m.jsxs)(h.tr,{children:[(0,m.jsx)(h.td,{children:(0,m.jsx)(h.code,{children:`className`})}),(0,m.jsx)(h.td,{children:`自定义类名`}),(0,m.jsx)(h.td,{children:(0,m.jsx)(h.code,{children:`string`})}),(0,m.jsx)(h.td,{children:`-`})]}),(0,m.jsxs)(h.tr,{children:[(0,m.jsx)(h.td,{children:(0,m.jsx)(h.code,{children:`style`})}),(0,m.jsx)(h.td,{children:`自定义内联样式`}),(0,m.jsx)(h.td,{children:(0,m.jsx)(h.code,{children:`CSSProperties`})}),(0,m.jsx)(h.td,{children:`-`})]})]})]})]})}function _(e={}){let{wrapper:t}=e.components||{};return t?(0,m.jsx)(t,{...e,children:(0,m.jsx)(g,{...e})}):g(e)}export{_ as default,h as frontmatter};
