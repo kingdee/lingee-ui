@@ -1,4 +1,4 @@
-import{R as e}from"./i18n-C43t6VQe.js";import{t}from"./DemoBox-C3fXWtGv.js";import{a as n,i as r,n as i,o as a,r as o,t as s}from"./full-D1S9_Acm.js";var c=e(),l={title:`Pagination 分页`,description:`当数据量较大时，使用分页拆分数据，方便用户快速定位。`};function u(e){let l={code:`code`,h2:`h2`,p:`p`,table:`table`,tbody:`tbody`,td:`td`,th:`th`,thead:`thead`,tr:`tr`,...e.components};return(0,c.jsxs)(c.Fragment,{children:[(0,c.jsx)(l.h2,{children:`基本用法`}),`
+import{R as e}from"./i18n-C43t6VQe.js";import{t}from"./DemoBox-C3fXWtGv.js";import{a as n,i as r,n as i,o as a,r as o,t as s}from"./full-B96QGUen.js";var c=e(),l={title:`Pagination 分页`,description:`当数据量较大时，使用分页拆分数据，方便用户快速定位。`};function u(e){let l={code:`code`,h2:`h2`,p:`p`,table:`table`,tbody:`tbody`,td:`td`,th:`th`,thead:`thead`,tr:`tr`,...e.components};return(0,c.jsxs)(c.Fragment,{children:[(0,c.jsx)(l.h2,{children:`基本用法`}),`
 `,(0,c.jsx)(l.p,{children:`基础分页器，展示总条数和页码切换。`}),`
 `,(0,c.jsx)(t,{source:n,children:(0,c.jsx)(a,{})}),`
 `,(0,c.jsx)(l.h2,{children:`样式变体`}),`

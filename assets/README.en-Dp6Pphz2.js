@@ -1,4 +1,4 @@
-import{R as e}from"./i18n-C43t6VQe.js";import{t}from"./DemoBox-C3fXWtGv.js";import{a as n,i as r,n as i,o as a,r as o,t as s}from"./full-D1S9_Acm.js";var c=e(),l={title:`Pagination`,description:`Splits large data sets into pages so users can locate content quickly.`};function u(e){let l={code:`code`,h2:`h2`,p:`p`,table:`table`,tbody:`tbody`,td:`td`,th:`th`,thead:`thead`,tr:`tr`,...e.components};return(0,c.jsxs)(c.Fragment,{children:[(0,c.jsx)(l.h2,{children:`Basic`}),`
+import{R as e}from"./i18n-C43t6VQe.js";import{t}from"./DemoBox-C3fXWtGv.js";import{a as n,i as r,n as i,o as a,r as o,t as s}from"./full-B96QGUen.js";var c=e(),l={title:`Pagination`,description:`Splits large data sets into pages so users can locate content quickly.`};function u(e){let l={code:`code`,h2:`h2`,p:`p`,table:`table`,tbody:`tbody`,td:`td`,th:`th`,thead:`thead`,tr:`tr`,...e.components};return(0,c.jsxs)(c.Fragment,{children:[(0,c.jsx)(l.h2,{children:`Basic`}),`
 `,(0,c.jsx)(l.p,{children:`A basic paginator showing the total count and page switching.`}),`
 `,(0,c.jsx)(t,{source:n,children:(0,c.jsx)(a,{})}),`
 `,(0,c.jsx)(l.h2,{children:`Variants`}),`
