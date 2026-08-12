@@ -1,0 +1,11 @@
+import{R as e}from"./i18n-DmENUXWN.js";import{t}from"./DemoBox-Cs0jgQZJ.js";import{a as n,i as r,n as i,o as a,r as o,t as s}from"./with-text-DlIAGkBC.js";var c=e(),l={title:`Divider 分割线`,description:`用于分隔内容区块，使页面结构更清晰。`};function u(e){let l={code:`code`,h2:`h2`,p:`p`,table:`table`,tbody:`tbody`,td:`td`,th:`th`,thead:`thead`,tr:`tr`,...e.components};return(0,c.jsxs)(c.Fragment,{children:[(0,c.jsx)(l.h2,{children:`基本用法`}),`
+`,(0,c.jsx)(l.p,{children:`水平分割线，用于上下内容之间的分隔。`}),`
+`,(0,c.jsx)(t,{source:n,children:(0,c.jsx)(a,{})}),`
+`,(0,c.jsx)(l.h2,{children:`垂直分割线`}),`
+`,(0,c.jsxs)(l.p,{children:[`设置 `,(0,c.jsx)(l.code,{children:`orientation="vertical"`}),` 用于行内元素间的分隔。`]}),`
+`,(0,c.jsx)(t,{source:o,children:(0,c.jsx)(r,{})}),`
+`,(0,c.jsx)(l.h2,{children:`颜色变体`}),`
+`,(0,c.jsxs)(l.p,{children:[`提供 `,(0,c.jsx)(l.code,{children:`muted`}),`（最浅）、`,(0,c.jsx)(l.code,{children:`default`}),`（默认）、`,(0,c.jsx)(l.code,{children:`emphasis`}),`（最深）三种变体。`]}),`
+`,(0,c.jsx)(t,{source:s,children:(0,c.jsx)(i,{})}),`
+`,(0,c.jsx)(l.h2,{children:`API`}),`
+`,(0,c.jsxs)(l.table,{children:[(0,c.jsx)(l.thead,{children:(0,c.jsxs)(l.tr,{children:[(0,c.jsx)(l.th,{children:`属性`}),(0,c.jsx)(l.th,{children:`说明`}),(0,c.jsx)(l.th,{children:`类型`}),(0,c.jsx)(l.th,{children:`默认值`})]})}),(0,c.jsxs)(l.tbody,{children:[(0,c.jsxs)(l.tr,{children:[(0,c.jsx)(l.td,{children:(0,c.jsx)(l.code,{children:`orientation`})}),(0,c.jsx)(l.td,{children:`分割线方向`}),(0,c.jsx)(l.td,{children:(0,c.jsx)(l.code,{children:`"horizontal" | "vertical"`})}),(0,c.jsx)(l.td,{children:(0,c.jsx)(l.code,{children:`"horizontal"`})})]}),(0,c.jsxs)(l.tr,{children:[(0,c.jsx)(l.td,{children:(0,c.jsx)(l.code,{children:`variant`})}),(0,c.jsx)(l.td,{children:`颜色变体`}),(0,c.jsx)(l.td,{children:(0,c.jsx)(l.code,{children:`"default" | "muted" | "emphasis"`})}),(0,c.jsx)(l.td,{children:(0,c.jsx)(l.code,{children:`"default"`})})]}),(0,c.jsxs)(l.tr,{children:[(0,c.jsx)(l.td,{children:(0,c.jsx)(l.code,{children:`spacing`})}),(0,c.jsx)(l.td,{children:`外间距（px）`}),(0,c.jsx)(l.td,{children:(0,c.jsx)(l.code,{children:`number`})}),(0,c.jsx)(l.td,{children:`-`})]})]})]})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,c.jsx)(t,{...e,children:(0,c.jsx)(u,{...e})}):u(e)}export{d as default,l as frontmatter};
