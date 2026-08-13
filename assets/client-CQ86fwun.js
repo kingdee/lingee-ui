@@ -1,1 +1,0 @@
-import{G as e,U as t}from"./i18n-DmENUXWN.js";var n=e((e=>{var n=t();e.createRoot=n.createRoot,e.hydrateRoot=n.hydrateRoot}));export{n as t};
