@@ -1,1 +1,0 @@
-import{K as e,W as t}from"./i18n-B4Rqn8un.js";var n=e((e=>{var n=t();e.createRoot=n.createRoot,e.hydrateRoot=n.hydrateRoot}));export{n as t};
