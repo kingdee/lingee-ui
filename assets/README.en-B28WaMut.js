@@ -1,4 +1,4 @@
-import{t as e}from"./jsx-runtime-OQpaS_Dv.js";import{t}from"./DemoBox-DAoib9f4.js";import{i as n,n as r,r as i,t as a}from"./group-DSDmPUeR.js";var o=e(),s={title:`Image`,description:`Image display component with click-to-zoom preview, rotation and scaling.`};function c(e){let s={code:`code`,h2:`h2`,p:`p`,table:`table`,tbody:`tbody`,td:`td`,th:`th`,thead:`thead`,tr:`tr`,...e.components};return(0,o.jsxs)(o.Fragment,{children:[(0,o.jsx)(s.h2,{children:`Basic`}),`
+import{t as e}from"./jsx-runtime-OQpaS_Dv.js";import{t}from"./DemoBox-DAoib9f4.js";import{i as n,n as r,r as i,t as a}from"./group-G1LHtq35.js";var o=e(),s={title:`Image`,description:`Image display component with click-to-zoom preview, rotation and scaling.`};function c(e){let s={code:`code`,h2:`h2`,p:`p`,table:`table`,tbody:`tbody`,td:`td`,th:`th`,thead:`thead`,tr:`tr`,...e.components};return(0,o.jsxs)(o.Fragment,{children:[(0,o.jsx)(s.h2,{children:`Basic`}),`
 `,(0,o.jsx)(s.p,{children:`Click an image to open the enlarged preview, where you can zoom and rotate it.`}),`
 `,(0,o.jsx)(t,{source:i,children:(0,o.jsx)(n,{})}),`
 `,(0,o.jsx)(s.h2,{children:`Preview group`}),`
