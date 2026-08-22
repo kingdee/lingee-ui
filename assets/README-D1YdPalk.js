@@ -1,4 +1,4 @@
-import{t as e}from"./jsx-runtime-OQpaS_Dv.js";import{t}from"./DemoBox-DAoib9f4.js";import{a as n,c as r,i,n as a,o,r as s,s as c,t as l}from"./danger-confirm-BPyXyzBg.js";var u=e(),d={title:`Dialog 弹出窗`,description:`模态对话框，用于需要用户确认或填写信息的场景。支持声明式和命令式两种调用方式。`};function f(e){let d={code:`code`,h2:`h2`,h3:`h3`,p:`p`,table:`table`,tbody:`tbody`,td:`td`,th:`th`,thead:`thead`,tr:`tr`,...e.components};return(0,u.jsxs)(u.Fragment,{children:[(0,u.jsx)(d.h2,{children:`基本用法`}),`
+import{t as e}from"./jsx-runtime-OQpaS_Dv.js";import{t}from"./DemoBox-DAoib9f4.js";import{a as n,c as r,i,n as a,o,r as s,s as c,t as l}from"./danger-confirm-j6-Yxpv6.js";var u=e(),d={title:`Dialog 弹出窗`,description:`模态对话框，用于需要用户确认或填写信息的场景。支持声明式和命令式两种调用方式。`};function f(e){let d={code:`code`,h2:`h2`,h3:`h3`,p:`p`,table:`table`,tbody:`tbody`,td:`td`,th:`th`,thead:`thead`,tr:`tr`,...e.components};return(0,u.jsxs)(u.Fragment,{children:[(0,u.jsx)(d.h2,{children:`基本用法`}),`
 `,(0,u.jsxs)(d.p,{children:[`通过 `,(0,u.jsx)(d.code,{children:`open`}),` 和 `,(0,u.jsx)(d.code,{children:`onOpenChange`}),` 控制对话框的显示和隐藏。`]}),`
 `,(0,u.jsx)(t,{source:c,children:(0,u.jsx)(r,{})}),`
 `,(0,u.jsx)(d.h2,{children:`命令式确认对话框`}),`
