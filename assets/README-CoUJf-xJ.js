@@ -1,4 +1,4 @@
-import{t as e}from"./jsx-runtime-OQpaS_Dv.js";import{t}from"./DemoBox-DAoib9f4.js";import{i as n,n as r,r as i,t as a}from"./group-Ck0nVPa8.js";var o=e(),s={title:`Image 图片预览`,description:`图片展示组件，支持点击放大预览、旋转、缩放等操作。`};function c(e){let s={code:`code`,h2:`h2`,p:`p`,table:`table`,tbody:`tbody`,td:`td`,th:`th`,thead:`thead`,tr:`tr`,...e.components};return(0,o.jsxs)(o.Fragment,{children:[(0,o.jsx)(s.h2,{children:`基本用法`}),`
+import{t as e}from"./jsx-runtime-OQpaS_Dv.js";import{t}from"./DemoBox-DAoib9f4.js";import{i as n,n as r,r as i,t as a}from"./group-DSDmPUeR.js";var o=e(),s={title:`Image 图片预览`,description:`图片展示组件，支持点击放大预览、旋转、缩放等操作。`};function c(e){let s={code:`code`,h2:`h2`,p:`p`,table:`table`,tbody:`tbody`,td:`td`,th:`th`,thead:`thead`,tr:`tr`,...e.components};return(0,o.jsxs)(o.Fragment,{children:[(0,o.jsx)(s.h2,{children:`基本用法`}),`
 `,(0,o.jsx)(s.p,{children:`点击图片可放大预览，支持缩放、旋转等操作。`}),`
 `,(0,o.jsx)(t,{source:i,children:(0,o.jsx)(n,{})}),`
 `,(0,o.jsx)(s.h2,{children:`多图预览组`}),`
