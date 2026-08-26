@@ -1,4 +1,4 @@
-import{t as e}from"./jsx-runtime-OQpaS_Dv.js";import{t}from"./CloudArrowUp-DufguESU.js";import{t as n}from"./button-DU-GfdHa.js";import{t as r}from"./upload-Nba9YXxo.js";var i=e();function a(){return(0,i.jsx)(r,{onChange:e=>console.log(`File list:`,e),children:(0,i.jsx)(n,{children:`Click to upload`})})}var o=`import { Upload, Button } from "lingee-ui";
+import{t as e}from"./jsx-runtime-OQpaS_Dv.js";import{t}from"./CloudArrowUp-DufguESU.js";import{t as n}from"./button-DU-GfdHa.js";import{t as r}from"./upload-CkdKcYOx.js";var i=e();function a(){return(0,i.jsx)(r,{onChange:e=>console.log(`File list:`,e),children:(0,i.jsx)(n,{children:`Click to upload`})})}var o=`import { Upload, Button } from "lingee-ui";
 
 export default function BasicDemo() {
   return (

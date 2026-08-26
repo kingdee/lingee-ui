@@ -1,4 +1,4 @@
-import{t as e}from"./jsx-runtime-OQpaS_Dv.js";import{t}from"./image-BXFVt7m5.js";var n=e();function r(){return(0,n.jsx)(t,{src:`https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png`,alt:`Sample image`,width:200,height:200,style:{objectFit:`cover`,borderRadius:8}})}var i=`import { Image } from "lingee-ui";
+import{t as e}from"./jsx-runtime-OQpaS_Dv.js";import{t}from"./image-DnZcYby3.js";var n=e();function r(){return(0,n.jsx)(t,{src:`https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png`,alt:`Sample image`,width:200,height:200,style:{objectFit:`cover`,borderRadius:8}})}var i=`import { Image } from "lingee-ui";
 
 export default function BasicDemo() {
   return (
