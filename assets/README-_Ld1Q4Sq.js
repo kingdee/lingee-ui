@@ -1,0 +1,32 @@
+import{t as e}from"./jsx-runtime-OQpaS_Dv.js";import{t}from"./DemoBox-DYcWJ8Xi.js";import{_ as n,a as r,b as i,c as a,d as o,f as s,g as c,h as l,i as u,l as d,m as f,n as p,o as m,p as h,r as g,s as _,t as v,u as y,v as b,y as x}from"./disabled-BhdTxrnq.js";var S=e(),C={title:`Button 按钮`,description:`用于触发一个操作，是用户与系统交互的基础元素。`};function w(e){let C={code:`code`,h2:`h2`,p:`p`,table:`table`,tbody:`tbody`,td:`td`,th:`th`,thead:`thead`,tr:`tr`,...e.components};return(0,S.jsxs)(S.Fragment,{children:[(0,S.jsx)(C.h2,{children:`基本用法`}),`
+`,(0,S.jsxs)(C.p,{children:[`按钮有三种基础变体：`,(0,S.jsx)(C.code,{children:`primary`}),`（主要）、`,(0,S.jsx)(C.code,{children:`default`}),`（默认）、`,(0,S.jsx)(C.code,{children:`text`}),`（文字）。`]}),`
+`,(0,S.jsx)(t,{source:x,children:(0,S.jsx)(i,{})}),`
+`,(0,S.jsx)(C.h2,{children:`全部变体`}),`
+`,(0,S.jsx)(C.p,{children:`六种按钮变体平铺展示，含 Default / Disabled / Loading / 带图标四态。`}),`
+`,(0,S.jsx)(t,{source:n,children:(0,S.jsx)(b,{})}),`
+`,(0,S.jsx)(C.h2,{children:`按钮尺寸`}),`
+`,(0,S.jsxs)(C.p,{children:[`提供 `,(0,S.jsx)(C.code,{children:`sm`}),`（24px）、`,(0,S.jsx)(C.code,{children:`md`}),`（28px）、`,(0,S.jsx)(C.code,{children:`std`}),`（32px）、`,(0,S.jsx)(C.code,{children:`lg`}),`（36px）四种尺寸，默认 `,(0,S.jsx)(C.code,{children:`md`}),`。`]}),`
+`,(0,S.jsx)(t,{source:l,children:(0,S.jsx)(c,{})}),`
+`,(0,S.jsx)(C.h2,{children:`按钮形状`}),`
+`,(0,S.jsxs)(C.p,{children:[`通过 `,(0,S.jsx)(C.code,{children:`shape`}),` 设置按钮形状：`,(0,S.jsx)(C.code,{children:`default`}),`（默认）、`,(0,S.jsx)(C.code,{children:`round`}),`（圆角）、`,(0,S.jsx)(C.code,{children:`circle`}),`（圆形，适用于纯图标按钮）。`]}),`
+`,(0,S.jsx)(t,{source:h,children:(0,S.jsx)(f,{})}),`
+`,(0,S.jsx)(C.h2,{children:`图标按钮`}),`
+`,(0,S.jsxs)(C.p,{children:[`通过 `,(0,S.jsx)(C.code,{children:`icon`}),` 属性设置图标，`,(0,S.jsx)(C.code,{children:`iconPosition`}),` 控制图标位置。`]}),`
+`,(0,S.jsx)(t,{source:o,children:(0,S.jsx)(s,{})}),`
+`,(0,S.jsx)(C.h2,{children:`危险按钮`}),`
+`,(0,S.jsxs)(C.p,{children:[`所有变体 + `,(0,S.jsx)(C.code,{children:`danger`}),` 的平铺展示，含 Default / Disabled / 带图标。`]}),`
+`,(0,S.jsx)(t,{source:d,children:(0,S.jsx)(y,{})}),`
+`,(0,S.jsx)(C.h2,{children:`幽灵按钮`}),`
+`,(0,S.jsxs)(C.p,{children:[`所有变体 + `,(0,S.jsx)(C.code,{children:`ghost`}),` 的平铺展示，含 `,(0,S.jsx)(C.code,{children:`danger + ghost`}),` 组合。`]}),`
+`,(0,S.jsx)(t,{source:_,children:(0,S.jsx)(a,{})}),`
+`,(0,S.jsx)(C.h2,{children:`图标按钮 + Tooltip`}),`
+`,(0,S.jsxs)(C.p,{children:[`纯图标按钮可通过 `,(0,S.jsx)(C.code,{children:`tooltip`}),` 属性添加文字提示。`]}),`
+`,(0,S.jsx)(t,{source:r,children:(0,S.jsx)(m,{})}),`
+`,(0,S.jsx)(C.h2,{children:`加载状态`}),`
+`,(0,S.jsxs)(C.p,{children:[`设置 `,(0,S.jsx)(C.code,{children:`loading`}),` 展示加载中状态，阻止重复点击。`]}),`
+`,(0,S.jsx)(t,{source:g,children:(0,S.jsx)(u,{})}),`
+`,(0,S.jsx)(C.h2,{children:`禁用状态`}),`
+`,(0,S.jsxs)(C.p,{children:[`设置 `,(0,S.jsx)(C.code,{children:`disabled`}),` 禁用按钮交互。`]}),`
+`,(0,S.jsx)(t,{source:v,children:(0,S.jsx)(p,{})}),`
+`,(0,S.jsx)(C.h2,{children:`API`}),`
+`,(0,S.jsxs)(C.table,{children:[(0,S.jsx)(C.thead,{children:(0,S.jsxs)(C.tr,{children:[(0,S.jsx)(C.th,{children:`属性`}),(0,S.jsx)(C.th,{children:`说明`}),(0,S.jsx)(C.th,{children:`类型`}),(0,S.jsx)(C.th,{children:`默认值`})]})}),(0,S.jsxs)(C.tbody,{children:[(0,S.jsxs)(C.tr,{children:[(0,S.jsx)(C.td,{children:(0,S.jsx)(C.code,{children:`variant`})}),(0,S.jsx)(C.td,{children:`按钮变体`}),(0,S.jsx)(C.td,{children:(0,S.jsx)(C.code,{children:`"primary" | "filled" | "default" | "text" | "link-plain" | "link"`})}),(0,S.jsx)(C.td,{children:(0,S.jsx)(C.code,{children:`"default"`})})]}),(0,S.jsxs)(C.tr,{children:[(0,S.jsx)(C.td,{children:(0,S.jsx)(C.code,{children:`size`})}),(0,S.jsx)(C.td,{children:`按钮尺寸`}),(0,S.jsx)(C.td,{children:(0,S.jsx)(C.code,{children:`"sm" | "md" | "std" | "lg"`})}),(0,S.jsx)(C.td,{children:(0,S.jsx)(C.code,{children:`"md"`})})]}),(0,S.jsxs)(C.tr,{children:[(0,S.jsx)(C.td,{children:(0,S.jsx)(C.code,{children:`shape`})}),(0,S.jsx)(C.td,{children:`按钮形状`}),(0,S.jsx)(C.td,{children:(0,S.jsx)(C.code,{children:`"default" | "round" | "circle"`})}),(0,S.jsx)(C.td,{children:(0,S.jsx)(C.code,{children:`"default"`})})]}),(0,S.jsxs)(C.tr,{children:[(0,S.jsx)(C.td,{children:(0,S.jsx)(C.code,{children:`icon`})}),(0,S.jsx)(C.td,{children:`图标插槽`}),(0,S.jsx)(C.td,{children:(0,S.jsx)(C.code,{children:`ReactNode`})}),(0,S.jsx)(C.td,{children:`-`})]}),(0,S.jsxs)(C.tr,{children:[(0,S.jsx)(C.td,{children:(0,S.jsx)(C.code,{children:`iconPosition`})}),(0,S.jsx)(C.td,{children:`图标位置`}),(0,S.jsx)(C.td,{children:(0,S.jsx)(C.code,{children:`"start" | "end"`})}),(0,S.jsx)(C.td,{children:(0,S.jsx)(C.code,{children:`"start"`})})]}),(0,S.jsxs)(C.tr,{children:[(0,S.jsx)(C.td,{children:(0,S.jsx)(C.code,{children:`danger`})}),(0,S.jsx)(C.td,{children:`危险态`}),(0,S.jsx)(C.td,{children:(0,S.jsx)(C.code,{children:`boolean`})}),(0,S.jsx)(C.td,{children:(0,S.jsx)(C.code,{children:`false`})})]}),(0,S.jsxs)(C.tr,{children:[(0,S.jsx)(C.td,{children:(0,S.jsx)(C.code,{children:`ghost`})}),(0,S.jsx)(C.td,{children:`透明背景`}),(0,S.jsx)(C.td,{children:(0,S.jsx)(C.code,{children:`boolean`})}),(0,S.jsx)(C.td,{children:(0,S.jsx)(C.code,{children:`false`})})]}),(0,S.jsxs)(C.tr,{children:[(0,S.jsx)(C.td,{children:(0,S.jsx)(C.code,{children:`loading`})}),(0,S.jsx)(C.td,{children:`加载状态`}),(0,S.jsx)(C.td,{children:(0,S.jsx)(C.code,{children:`boolean`})}),(0,S.jsx)(C.td,{children:(0,S.jsx)(C.code,{children:`false`})})]}),(0,S.jsxs)(C.tr,{children:[(0,S.jsx)(C.td,{children:(0,S.jsx)(C.code,{children:`disabled`})}),(0,S.jsx)(C.td,{children:`禁用状态`}),(0,S.jsx)(C.td,{children:(0,S.jsx)(C.code,{children:`boolean`})}),(0,S.jsx)(C.td,{children:(0,S.jsx)(C.code,{children:`false`})})]}),(0,S.jsxs)(C.tr,{children:[(0,S.jsx)(C.td,{children:(0,S.jsx)(C.code,{children:`tooltip`})}),(0,S.jsx)(C.td,{children:`Tooltip 文字`}),(0,S.jsx)(C.td,{children:(0,S.jsx)(C.code,{children:`string`})}),(0,S.jsx)(C.td,{children:`-`})]}),(0,S.jsxs)(C.tr,{children:[(0,S.jsx)(C.td,{children:(0,S.jsx)(C.code,{children:`onClick`})}),(0,S.jsx)(C.td,{children:`点击回调`}),(0,S.jsx)(C.td,{children:(0,S.jsx)(C.code,{children:`(e: MouseEvent) => void`})}),(0,S.jsx)(C.td,{children:`-`})]}),(0,S.jsxs)(C.tr,{children:[(0,S.jsx)(C.td,{children:(0,S.jsx)(C.code,{children:`children`})}),(0,S.jsx)(C.td,{children:`子内容`}),(0,S.jsx)(C.td,{children:(0,S.jsx)(C.code,{children:`ReactNode`})}),(0,S.jsx)(C.td,{children:`-`})]})]})]})]})}function T(e={}){let{wrapper:t}=e.components||{};return t?(0,S.jsx)(t,{...e,children:(0,S.jsx)(w,{...e})}):w(e)}export{T as default,C as frontmatter};
