@@ -1,1 +1,0 @@
-function e(e){return e instanceof HTMLElement||e instanceof SVGElement}function t(t){return t&&typeof t==`object`&&e(t.nativeElement)?t.nativeElement:e(t)?t:null}export{t};
