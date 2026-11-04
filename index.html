@@ -11,7 +11,8 @@
       (function () {
         try {
           var theme = localStorage.getItem("lingee-ui-theme");
-          if (theme !== "dark" && theme !== "light") {
+          // 系统只有亮暗两档，暖棕只能来自用户显式选择
+          if (theme !== "dark" && theme !== "light" && theme !== "warm") {
             theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
           }
           document.documentElement.setAttribute("data-theme", theme);
@@ -28,7 +29,7 @@
         }
       })();
     </script>
-    <script type="module" crossorigin src="/lingee-ui/assets/index-bNbUTu5o.js"></script>
+    <script type="module" crossorigin src="/lingee-ui/assets/index-C1im4DXs.js"></script>
     <link rel="modulepreload" crossorigin href="/lingee-ui/assets/jsx-runtime-OQpaS_Dv.js">
     <link rel="modulepreload" crossorigin href="/lingee-ui/assets/react-dom-Ccy8f0CG.js">
     <link rel="modulepreload" crossorigin href="/lingee-ui/assets/dist-BeQ1VG23.js">
@@ -39,11 +40,11 @@
     <link rel="modulepreload" crossorigin href="/lingee-ui/assets/XLg-B7EiDI5m.js">
     <link rel="modulepreload" crossorigin href="/lingee-ui/assets/zh-CN-MVA7Hv4O.js">
     <link rel="modulepreload" crossorigin href="/lingee-ui/assets/provider-ViaVeHt0.js">
-    <link rel="modulepreload" crossorigin href="/lingee-ui/assets/i18n-eT274RU2.js">
+    <link rel="modulepreload" crossorigin href="/lingee-ui/assets/i18n-CPIycNvD.js">
     <link rel="stylesheet" crossorigin href="/lingee-ui/assets/tooltip-DyzQSy6Z.css">
     <link rel="stylesheet" crossorigin href="/lingee-ui/assets/button-BqRnidle.css">
     <link rel="stylesheet" crossorigin href="/lingee-ui/assets/provider-BKuSV0xN.css">
-    <link rel="stylesheet" crossorigin href="/lingee-ui/assets/index-Cejf6kzZ.css">
+    <link rel="stylesheet" crossorigin href="/lingee-ui/assets/index-CelP8UD9.css">
   </head>
   <body>
     <div id="root"></div>
